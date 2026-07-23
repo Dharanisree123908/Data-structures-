@@ -1,0 +1,33 @@
+BEGIN
+
+INPUT Array
+
+FUNCTION MergeSort(Array)
+
+IF Length(Array) ≤ 1 THEN
+
+    RETURN Array
+
+ENDIF
+
+Find Middle Position
+
+Divide Array into Left_Array
+
+Divide Array into Right_Array
+
+Left_Array ← MergeSort(Left_Array)
+
+Right_Array ← MergeSort(Right_Array)
+
+Merge Left_Array and Right_Array
+
+RETURN Merged_Array
+
+END FUNCTION
+
+Sorted_Array ← MergeSort(Array)
+
+DISPLAY Sorted_Array
+
+END
