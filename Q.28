@@ -1,0 +1,29 @@
+BEGIN
+
+Load Large Dataset
+
+Select Efficient Algorithm
+
+Start Timer
+
+FOR Each Record in Dataset
+
+    Read Record
+
+    Process Record
+
+    Store Result
+
+END FOR
+
+Stop Timer
+
+Calculate Time Complexity
+
+Calculate Space Complexity
+
+Calculate Throughput
+
+Display Performance Report
+
+END
