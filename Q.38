@@ -1,0 +1,21 @@
+BEGIN
+
+Load User Profile
+
+Load Watch History
+
+Receive User Request
+
+Search Requested Video
+
+Play Video
+
+Update Watch History
+
+Store Updated History
+
+Generate Recommendations
+
+Display Recommendations
+
+END
