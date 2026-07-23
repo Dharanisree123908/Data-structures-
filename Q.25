@@ -1,0 +1,22 @@
+START
+
+INPUT Expression
+
+FUNCTION Evaluate(Expression)
+
+IF Expression is Simple THEN
+    RETURN Value
+ELSE
+    Divide Expression into Smaller Parts
+    LeftValue ← Evaluate(Left Part)
+    RightValue ← Evaluate(Right Part)
+    RETURN LeftValue Operator RightValue
+END IF
+
+END FUNCTION
+
+Result ← Evaluate(Expression)
+
+DISPLAY Result
+
+STOP
