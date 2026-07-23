@@ -1,0 +1,21 @@
+START
+
+Create Employee ADT
+Declare Employee ID, Name, Basic Salary, Bonus, Deduction
+
+INPUT Employee ID
+INPUT Employee Name
+INPUT Basic Salary
+INPUT Bonus
+INPUT Deduction
+
+NetSalary ← Basic Salary + Bonus − Deduction
+
+DISPLAY Employee ID
+DISPLAY Employee Name
+DISPLAY Basic Salary
+DISPLAY Bonus
+DISPLAY Deduction
+DISPLAY NetSalary
+
+STOP
