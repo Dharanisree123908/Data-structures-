@@ -1,0 +1,21 @@
+BEGIN
+
+Initialize Sensor
+
+WHILE Device is ON
+
+Read Sensor Data
+
+Check Available Memory
+
+Process Data
+
+Reduce Power Consumption
+
+Store Data
+
+Display Health Information
+
+END WHILE
+
+END
