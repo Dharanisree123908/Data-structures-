@@ -1,0 +1,39 @@
+BEGIN
+
+INPUT Expression
+
+FUNCTION Solve(Expression)
+
+IF Expression is Simple THEN
+
+RETURN Expression
+
+ENDIF
+
+Check Stack Size
+
+IF Stack is Full THEN
+
+Display "Stack Overflow"
+
+RETURN
+
+ENDIF
+
+Divide Expression
+
+Solve Left Part
+
+Solve Right Part
+
+Combine Results
+
+RETURN Result
+
+END FUNCTION
+
+Result ← Solve(Expression)
+
+DISPLAY Result
+
+END
