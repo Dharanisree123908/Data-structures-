@@ -1,0 +1,17 @@
+BEGIN
+
+INPUT Search Keyword
+
+Access Search Index
+
+Search Matching Documents
+
+Rank Documents
+
+Sort Search Results
+
+Display Top Results
+
+Calculate Search Time
+
+END
