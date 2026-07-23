@@ -1,0 +1,33 @@
+START
+
+Create structure Patient
+    PatientID
+    Name
+    Temperature
+    BloodPressure
+    Diagnosis
+END Structure
+
+Create Array Patients[100]
+
+Read NumberOfPatients
+
+FOR each patient from 1 to NumberOfPatients
+    Read PatientID
+    Read Name
+    Read Temperature
+    Read BloodPressure
+    Read Diagnosis
+
+    Store all details in Patients array
+END FOR
+
+FOR each patient
+    Display PatientID
+    Display Name
+    Display Temperature
+    Display BloodPressure
+    Display Diagnosis
+END FOR
+
+STOP
