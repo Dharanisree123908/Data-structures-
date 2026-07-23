@@ -1,0 +1,19 @@
+BEGIN
+
+Store User List in Array
+
+Store Messages in Linked List
+
+Store User IDs in Hash Table
+
+Receive New Message
+
+Search Receiver using Hash Table
+
+Store Message
+
+Update Chat Thread
+
+Display Conversation
+
+END
