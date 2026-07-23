@@ -1,0 +1,21 @@
+START
+
+Load Game Data
+
+WHILE Game is Running
+
+Read Player Input
+
+Optimize Algorithm
+
+Reduce Processing Time
+
+Reduce Memory Usage
+
+Update Game Objects
+
+Display Updated Screen
+
+END WHILE
+
+STOP
