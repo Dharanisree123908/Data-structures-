@@ -1,0 +1,45 @@
+BEGIN
+
+INPUT Number_of_Products
+
+Store Product Details
+
+REPEAT
+
+Display Menu
+
+1.Insert
+
+2.Delete
+
+3.Search
+
+4.Update
+
+5.Exit
+
+INPUT Choice
+
+IF Choice = 1 THEN
+
+Insert Product
+
+ELSE IF Choice = 2 THEN
+
+Delete Product
+
+ELSE IF Choice = 3 THEN
+
+Search Product
+
+ELSE IF Choice = 4 THEN
+
+Update Product
+
+ENDIF
+
+UNTIL Choice = 5
+
+Display Inventory
+
+END
