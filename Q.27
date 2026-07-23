@@ -1,0 +1,34 @@
+BEGIN
+
+INPUT Number_of_Employees
+
+DECLARE Name[100]
+DECLARE Salary[100]
+DECLARE Bonus[100]
+DECLARE Deduction[100]
+DECLARE NetSalary[100]
+
+FOR i ← 1 TO Number_of_Employees
+
+    INPUT Name[i]
+    INPUT Salary[i]
+    INPUT Bonus[i]
+    INPUT Deduction[i]
+
+    NetSalary[i] ← Salary[i] + Bonus[i] − Deduction[i]
+
+END FOR
+
+DISPLAY "Payroll Report"
+
+FOR i ← 1 TO Number_of_Employees
+
+    DISPLAY Name[i]
+    DISPLAY Salary[i]
+    DISPLAY Bonus[i]
+    DISPLAY Deduction[i]
+    DISPLAY NetSalary[i]
+
+END FOR
+
+END
