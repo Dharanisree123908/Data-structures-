@@ -1,0 +1,21 @@
+BEGIN
+
+Receive Student Login
+
+Verify Student
+
+Display Question Paper
+
+Receive Student Answers
+
+Evaluate Answers
+
+Calculate Marks
+
+Store Marks in Database
+
+Generate Result
+
+Display Result
+
+END
