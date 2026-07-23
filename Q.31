@@ -1,0 +1,25 @@
+BEGIN
+
+INPUT Student Details
+
+Create Class Records
+
+Create Section Records
+
+Store Records in Tree Structure
+
+INPUT Student Roll Number
+
+Search Student
+
+IF Student Found THEN
+
+Display Student Details
+
+ELSE
+
+Display "Student Not Found"
+
+ENDIF
+
+END
